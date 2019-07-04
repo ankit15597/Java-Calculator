@@ -362,14 +362,20 @@ public class index extends javax.swing.JFrame {
            // TODO add your handling code here:
     }                                        
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+    private void CLRActionPerformed(java.awt.event.ActionEvent evt) {                                         
         txtval.setText("");// TODO add your handling code here:
     }                                        
 
     private void DotActionPerformed(java.awt.event.ActionEvent evt) {                                    
        String str=txtval.getText()+Dot.getText();
        txtval.setText(str);// TODO add your handling code here:
-    }                                   
+    }  
+    private void SqrtActionPerformed(java.awt.event.ActionEvent evt) {
+
+       double a=Double.valueOf(txtval.getText());
+       a=Math.sqrt(a);
+       txtval.setText(String.valueOf(a));// TODO add your handling code here:
+    }
 
     /**
      * @param args the command line arguments
