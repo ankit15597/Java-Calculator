@@ -376,6 +376,11 @@ public class index extends javax.swing.JFrame {
        a=Math.sqrt(a);
        txtval.setText(String.valueOf(a));// TODO add your handling code here:
     }
+    private void SqrActionPerformed(java.awt.event.ActionEvent evt) {
+        double a=Double.valueOf(txtval.getText());
+        a=Math.pow(a,2);
+        txtval.setText(String.valueOf(a)); // TODO add your handling code here:
+    }
 
     /**
      * @param args the command line arguments
