@@ -267,9 +267,7 @@ public class index extends javax.swing.JFrame {
         pack();
     }// </editor-fold>                        
 
-    private void txtvalActionPerformed(java.awt.event.ActionEvent evt) {                                       
-        // TODO add your handling code here:
-    }                                      
+                                   
 
     private void btn1ActionPerformed(java.awt.event.ActionEvent evt) {                                     
         String str=txtval.getText()+btn1.getText();
